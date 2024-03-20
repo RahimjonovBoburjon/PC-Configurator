@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Configurator PC</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Configurator PC</h1>
+    <form id="configurator-form">
+      <label for="cpu">CPU:</label>
+      <select id="cpu">
+        <option value="intel-i3">Intel i3</option>
+        <option value="intel-i5">Intel i5</option>
+        <option value="intel-i7">Intel i7</option>
+      </select><br>
+
+      <label for="gpu">GPU:</label>
+      <select id="gpu">
+        <option value="nvidia-gtx-1050">Nvidia GTX 1050</option>
+        <option value="nvidia-gtx-1060">Nvidia GTX 1060</option>
+        <option value="nvidia-gtx-1080">Nvidia GTX 1080</option>
+      </select><br>
+
+      <label for="memory">Memory:</label>
+      <select id="memory">
+        <option value="8gb">8 GB</option>
+        <option value="16gb">16 GB</option>
+        <option value="32gb">32 GB</option>
+      </select><br>
+
+      <label for="storage">Storage:</label>
+      <select id="storage">
+        <option value="120gb-ssd">120 GB SSD</option>
+        <option value="240gb-ssd">240 GB SSD</option>
+        <option value="500gb-ssd">500 GB SSD</option>
+      </select><br>
+
+      <input type="submit" value="Configure">
+    </form>
+    <div id="configured-pc"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
