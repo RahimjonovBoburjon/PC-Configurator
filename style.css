@@ -44,10 +44,9 @@ input[type="submit"] {
 
 select {
     border-radius: 50px;
-    width: 130px;
+    /* width: 130px; */
     height: 40px;
     color: #fff;
-    border-radius: 5px;
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
